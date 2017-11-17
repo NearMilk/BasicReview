@@ -14,6 +14,8 @@
 		4774DD471FBEC81A00DEACF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4774DD451FBEC81A00DEACF7 /* LaunchScreen.storyboard */; };
 		4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD491FBEC81A00DEACF7 /* main.m */; };
 		4774DD541FBED20400DEACF7 /* DeepShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */; };
+		4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */; };
+		4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		4774DD491FBEC81A00DEACF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4774DD521FBED20400DEACF7 /* DeepShallowCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepShallowCopy.h; sourceTree = "<group>"; };
 		4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepShallowCopy.m; sourceTree = "<group>"; };
+		4774DD571FBEDD6C00DEACF7 /* MessageSuperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSuperClass.h; sourceTree = "<group>"; };
+		4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSuperClass.m; sourceTree = "<group>"; };
+		4774DD5A1FBEDD7F00DEACF7 /* MessageSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSubClass.h; sourceTree = "<group>"; };
+		4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSubClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,30 @@
 		4774DD511FBEC83F00DEACF7 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				4774DD561FBEDCB000DEACF7 /* Message */,
+				4774DD551FBEDCA100DEACF7 /* Copy */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		4774DD551FBEDCA100DEACF7 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
 				4774DD521FBED20400DEACF7 /* DeepShallowCopy.h */,
 				4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */,
 			);
-			path = Basic;
+			path = Copy;
+			sourceTree = "<group>";
+		};
+		4774DD561FBEDCB000DEACF7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4774DD571FBEDD6C00DEACF7 /* MessageSuperClass.h */,
+				4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */,
+				4774DD5A1FBEDD7F00DEACF7 /* MessageSubClass.h */,
+				4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +184,9 @@
 				4774DD3F1FBEC81A00DEACF7 /* ViewController.m in Sources */,
 				4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */,
 				4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */,
+				4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */,
 				4774DD541FBED20400DEACF7 /* DeepShallowCopy.m in Sources */,
+				4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
