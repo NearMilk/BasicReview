@@ -13,6 +13,7 @@
 		4774DD441FBEC81A00DEACF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4774DD431FBEC81A00DEACF7 /* Assets.xcassets */; };
 		4774DD471FBEC81A00DEACF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4774DD451FBEC81A00DEACF7 /* LaunchScreen.storyboard */; };
 		4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD491FBEC81A00DEACF7 /* main.m */; };
+		4774DD541FBED20400DEACF7 /* DeepShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4774DD461FBEC81A00DEACF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4774DD481FBEC81A00DEACF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4774DD491FBEC81A00DEACF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4774DD521FBED20400DEACF7 /* DeepShallowCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepShallowCopy.h; sourceTree = "<group>"; };
+		4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepShallowCopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4774DD391FBEC81A00DEACF7 /* BasicReview */ = {
 			isa = PBXGroup;
 			children = (
+				4774DD511FBEC83F00DEACF7 /* Basic */,
 				4774DD3A1FBEC81A00DEACF7 /* AppDelegate.h */,
 				4774DD3B1FBEC81A00DEACF7 /* AppDelegate.m */,
 				4774DD3D1FBEC81A00DEACF7 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				4774DD491FBEC81A00DEACF7 /* main.m */,
 			);
 			path = BasicReview;
+			sourceTree = "<group>";
+		};
+		4774DD511FBEC83F00DEACF7 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				4774DD521FBED20400DEACF7 /* DeepShallowCopy.h */,
+				4774DD531FBED20400DEACF7 /* DeepShallowCopy.m */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				4774DD3F1FBEC81A00DEACF7 /* ViewController.m in Sources */,
 				4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */,
 				4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */,
+				4774DD541FBED20400DEACF7 /* DeepShallowCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
