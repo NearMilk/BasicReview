@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MessageForwardVC.h
 //  BasicReview
 //
-//  Created by near on 2017/11/17.
+//  Created by near on 2017/11/20.
 //  Copyright © 2017年 near. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MessageForwardVC : UIViewController
 
 @end
-

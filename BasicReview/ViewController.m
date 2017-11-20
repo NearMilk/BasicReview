@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  BasicReview
 //
 //  Created by near on 2017/11/17.
 //  Copyright © 2017年 near. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 #import "MessageSubClass.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

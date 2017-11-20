@@ -1,14 +1,23 @@
 //
-//  DeepShallowCopy.m
+//  DeepShallowCopyVC.m
 //  BasicReview
 //
-//  Created by near on 2017/11/17.
+//  Created by near on 2017/11/20.
 //  Copyright © 2017年 near. All rights reserved.
 //
 
-#import "DeepShallowCopy.h"
+#import "DeepShallowCopyVC.h"
 
-@implementation DeepShallowCopy
+@interface DeepShallowCopyVC ()
+@end
+
+@implementation DeepShallowCopyVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+}
+
 - (void)testNSString {
     NSString *str1 = @"str1";   // NSString
     NSString *str2 = str1;  // 浅拷贝，NSString
