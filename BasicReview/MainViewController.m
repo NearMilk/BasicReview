@@ -21,14 +21,16 @@
     return @[
              @"deepShallowCopy",
              @"messageForward",
-             @"runLoop"
+             @"runLoop",
+             @"lifeCycle"
              ];
 }
 - (NSArray *)vcArray {
     return @[
              @"DeepShallowCopyVC",
              @"MessageForwardVC",
-             @"RunLoopVC"
+             @"RunLoopVC",
+             @"LifeCycleVC"
              ];
 }
 

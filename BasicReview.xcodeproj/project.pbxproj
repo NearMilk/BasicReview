@@ -15,6 +15,13 @@
 		4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD491FBEC81A00DEACF7 /* main.m */; };
 		4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */; };
 		4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */; };
+		479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */; };
+		479253571FC3CC4D0034AFDB /* LifeCycleNibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */; };
+		4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253591FC3D6A20034AFDB /* LifeCycleVC.m */; };
+		4792535C1FC3D6A20034AFDB /* LifeCycleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4792535A1FC3D6A20034AFDB /* LifeCycleVC.xib */; };
+		4792535F1FC3D85D0034AFDB /* LifeCycleNoNibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792535E1FC3D85D0034AFDB /* LifeCycleNoNibVC.m */; };
+		479253621FC3F2110034AFDB /* LifeCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253611FC3F2110034AFDB /* LifeCycleView.m */; };
+		479253651FC3F89D0034AFDB /* LifeCycleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253641FC3F89D0034AFDB /* LifeCycleObject.m */; };
 		4798E5CA1FC2A6CE00499AC3 /* RunLoopTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5C81FC2A6CE00499AC3 /* RunLoopTestVC.m */; };
 		4798E5CB1FC2A6CE00499AC3 /* RunLoopTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4798E5C91FC2A6CE00499AC3 /* RunLoopTestVC.xib */; };
 		4798E5CE1FC2AA6800499AC3 /* DeepShallowCopyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5CD1FC2AA6800499AC3 /* DeepShallowCopyVC.m */; };
@@ -37,6 +44,18 @@
 		4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSuperClass.m; sourceTree = "<group>"; };
 		4774DD5A1FBEDD7F00DEACF7 /* MessageSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSubClass.h; sourceTree = "<group>"; };
 		4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSubClass.m; sourceTree = "<group>"; };
+		479253531FC3CC4D0034AFDB /* LifeCycleNibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleNibVC.h; sourceTree = "<group>"; };
+		479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleNibVC.m; sourceTree = "<group>"; };
+		479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleNibVC.xib; sourceTree = "<group>"; };
+		479253581FC3D6A20034AFDB /* LifeCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleVC.h; sourceTree = "<group>"; };
+		479253591FC3D6A20034AFDB /* LifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleVC.m; sourceTree = "<group>"; };
+		4792535A1FC3D6A20034AFDB /* LifeCycleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleVC.xib; sourceTree = "<group>"; };
+		4792535D1FC3D85D0034AFDB /* LifeCycleNoNibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleNoNibVC.h; sourceTree = "<group>"; };
+		4792535E1FC3D85D0034AFDB /* LifeCycleNoNibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleNoNibVC.m; sourceTree = "<group>"; };
+		479253601FC3F2110034AFDB /* LifeCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleView.h; sourceTree = "<group>"; };
+		479253611FC3F2110034AFDB /* LifeCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleView.m; sourceTree = "<group>"; };
+		479253631FC3F89D0034AFDB /* LifeCycleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleObject.h; sourceTree = "<group>"; };
+		479253641FC3F89D0034AFDB /* LifeCycleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleObject.m; sourceTree = "<group>"; };
 		4798E5C71FC2A6CE00499AC3 /* RunLoopTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTestVC.h; sourceTree = "<group>"; };
 		4798E5C81FC2A6CE00499AC3 /* RunLoopTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTestVC.m; sourceTree = "<group>"; };
 		4798E5C91FC2A6CE00499AC3 /* RunLoopTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoopTestVC.xib; sourceTree = "<group>"; };
@@ -95,6 +114,8 @@
 		4774DD511FBEC83F00DEACF7 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				479253521FC3BDBE0034AFDB /* LifeCycle */,
+				479253511FC3BBF30034AFDB /* Thread */,
 				4798E5C61FC268D300499AC3 /* RunLoop */,
 				4774DD561FBEDCB000DEACF7 /* Message */,
 				4774DD551FBEDCA100DEACF7 /* Copy */,
@@ -122,6 +143,56 @@
 				4798E5D01FC2AB9E00499AC3 /* MessageForwardVC.m */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		479253511FC3BBF30034AFDB /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		479253521FC3BDBE0034AFDB /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				479253681FC3FAAD0034AFDB /* object */,
+				479253671FC3FAA40034AFDB /* viewController */,
+				479253661FC3FA970034AFDB /* view */,
+				479253581FC3D6A20034AFDB /* LifeCycleVC.h */,
+				479253591FC3D6A20034AFDB /* LifeCycleVC.m */,
+				4792535A1FC3D6A20034AFDB /* LifeCycleVC.xib */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		479253661FC3FA970034AFDB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				479253601FC3F2110034AFDB /* LifeCycleView.h */,
+				479253611FC3F2110034AFDB /* LifeCycleView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		479253671FC3FAA40034AFDB /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				479253531FC3CC4D0034AFDB /* LifeCycleNibVC.h */,
+				479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */,
+				479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */,
+				4792535D1FC3D85D0034AFDB /* LifeCycleNoNibVC.h */,
+				4792535E1FC3D85D0034AFDB /* LifeCycleNoNibVC.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		479253681FC3FAAD0034AFDB /* object */ = {
+			isa = PBXGroup;
+			children = (
+				479253631FC3F89D0034AFDB /* LifeCycleObject.h */,
+				479253641FC3F89D0034AFDB /* LifeCycleObject.m */,
+			);
+			path = object;
 			sourceTree = "<group>";
 		};
 		4798E5C61FC268D300499AC3 /* RunLoop */ = {
@@ -195,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4774DD471FBEC81A00DEACF7 /* LaunchScreen.storyboard in Resources */,
+				4792535C1FC3D6A20034AFDB /* LifeCycleVC.xib in Resources */,
+				479253571FC3CC4D0034AFDB /* LifeCycleNibVC.xib in Resources */,
 				4774DD441FBEC81A00DEACF7 /* Assets.xcassets in Resources */,
 				4798E5CB1FC2A6CE00499AC3 /* RunLoopTestVC.xib in Resources */,
 				4774DD421FBEC81A00DEACF7 /* Main.storyboard in Resources */,
@@ -208,8 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479253621FC3F2110034AFDB /* LifeCycleView.m in Sources */,
 				4798E5D11FC2AB9E00499AC3 /* MessageForwardVC.m in Sources */,
+				479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */,
 				4774DD3F1FBEC81A00DEACF7 /* MainViewController.m in Sources */,
+				4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */,
+				4792535F1FC3D85D0034AFDB /* LifeCycleNoNibVC.m in Sources */,
 				4798E5CA1FC2A6CE00499AC3 /* RunLoopTestVC.m in Sources */,
 				4798E5D41FC2ABE500499AC3 /* RunLoopVC.m in Sources */,
 				4798E5CE1FC2AA6800499AC3 /* DeepShallowCopyVC.m in Sources */,
@@ -217,6 +294,7 @@
 				4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */,
 				4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */,
 				4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */,
+				479253651FC3F89D0034AFDB /* LifeCycleObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
