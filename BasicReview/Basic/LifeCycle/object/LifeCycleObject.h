@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface LifeCycleObject : NSObject
-
+@property (nonatomic, copy) NSString *string;
 @end

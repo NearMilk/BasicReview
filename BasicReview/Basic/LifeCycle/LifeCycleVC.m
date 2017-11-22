@@ -18,12 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self testWeakStrongObject];
 }
 
 - (void)testWeakStrongObject {  // 猜想集合类型因为也是指针对象，应该是差不多的，区别大概是在于他们各自实现的 NSCopying 等协议吧
     LifeCycleObject *obj0 = [LifeCycleObject new];  /// 默认 __strong
     __weak LifeCycleObject *obj1 = [[LifeCycleObject alloc] init]; /// 在 LifeCycleObject 结束创建后立马执行了 dealloc
     __weak LifeCycleObject *obj2 = obj0;
+    NSString *string = obj0.string;
+    NSLog(@"%p\r\n, %p", obj0.string, string);
     NSLog(@"%p\r\n, %p\r\n, %p", obj0, obj1, obj2);
     obj0 = nil; // obj0 调用了 dealloc， obj0，obj2 内存都被回收了
     NSLog(@"%p\r\n, %p", obj0, obj2);
