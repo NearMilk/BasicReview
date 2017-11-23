@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471D557D1FC6BFF500E22B5C /* MessageOtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 471D557C1FC6BFF400E22B5C /* MessageOtherClass.m */; };
 		4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD3B1FBEC81A00DEACF7 /* AppDelegate.m */; };
 		4774DD3F1FBEC81A00DEACF7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD3E1FBEC81A00DEACF7 /* MainViewController.m */; };
 		4774DD421FBEC81A00DEACF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4774DD401FBEC81A00DEACF7 /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471D557B1FC6BFF400E22B5C /* MessageOtherClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageOtherClass.h; sourceTree = "<group>"; };
+		471D557C1FC6BFF400E22B5C /* MessageOtherClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageOtherClass.m; sourceTree = "<group>"; };
 		4774DD371FBEC81A00DEACF7 /* BasicReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4774DD3A1FBEC81A00DEACF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4774DD3B1FBEC81A00DEACF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */,
 				4798E5CF1FC2AB9E00499AC3 /* MessageForwardVC.h */,
 				4798E5D01FC2AB9E00499AC3 /* MessageForwardVC.m */,
+				471D557B1FC6BFF400E22B5C /* MessageOtherClass.h */,
+				471D557C1FC6BFF400E22B5C /* MessageOtherClass.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */,
 				4774DD3F1FBEC81A00DEACF7 /* MainViewController.m in Sources */,
 				4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */,
+				471D557D1FC6BFF500E22B5C /* MessageOtherClass.m in Sources */,
 				4792535F1FC3D85D0034AFDB /* LifeCycleNoNibVC.m in Sources */,
 				4798E5CA1FC2A6CE00499AC3 /* RunLoopTestVC.m in Sources */,
 				4798E5D41FC2ABE500499AC3 /* RunLoopVC.m in Sources */,

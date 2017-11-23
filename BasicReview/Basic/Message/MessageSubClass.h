@@ -10,5 +10,5 @@
 
 @interface MessageSubClass : MessageSuperClass
 
-- (void)testIsExecuteCache;
+- (void)testMessageForward;
 @end
