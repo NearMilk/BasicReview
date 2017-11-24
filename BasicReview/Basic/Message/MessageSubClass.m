@@ -12,10 +12,10 @@
 
 
 /**
- 总结:
- 1. 当没有找到一个需要调用的函数时(我试了下，好像是没有找到指定sel的 imp 的时候才会进行消息转发，不知道有没有搞错.)，会首先调用 resolveInstanceMethod: 或 resolveClassMethod:，我们可以在这一步动态添加一个 imp 避免异常抛出;
- 2. 当你在之前一步当中没 hook，会跳到 forwardingTargetForSelector: 中，你可以在这里把这个消息转发给其他对象，让其他对象处理这个消息, 其他对象中必须存在 指定sel的imp
- 3. 在上一步也没有 hook 时，会进入 methodSignatureForSelector:，这一步是最后一次挽救的机会，如果该方法返回 nil， 会发送 doesNotRecognizeSelector: 消息，程序也就 crash 了。如果返回了一个函数签名，就会创建一个 NSInvocation 对并且发送 forwardInvocation: 给目标对象, 你可以在其中发送 invokeWithTarget: 消息手动转发或者调用 doesNotRecognizeSelector: 抛出异常。
+ 总结:  http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/
+ 1. 当没有找到一个需要调用的函数时(我试了下，好像是没有找到指定sel的 imp 的时候才会进行，不知道有没有搞错.)，会首先调用 resolveInstanceMethod: 或 resolveClassMethod: 动态方法解析，我们可以在这一步动态添加一个 imp 避免异常抛出;
+ 2. 当你在之前一步当中没 hook，会跳到 forwardingTargetForSelector: 中，你可以在这里把这个消息重定向，让其他对象处理这个消息, 其他对象中必须存在 指定sel的imp
+ 3. 在上一步也没有 hook 时，会进入 methodSignatureForSelector:，这一步是最后一次挽救的机会，如果该方法返回 nil， 会发送 doesNotRecognizeSelector: 消息，程序也就 crash 了。如果返回了一个函数签名，就会创建一个 NSInvocation 并且发送 forwardInvocation: 给目标对象, 你可以在其中发送 invokeWithTarget: 消息手动转发或者调用 doesNotRecognizeSelector: 抛出异常。
  */
 
 @implementation MessageSubClass
@@ -31,11 +31,17 @@
 //- (IMP)methodForSelector:(SEL)aSelector {
 //    return [super methodForSelector:aSelector];
 //}
+
+/// +resolveClassMethod:, +resolveInstanceMethod: 动态方法解析
 + (BOOL)resolveClassMethod:(SEL)sel {
     NSLog(@"%@", NSStringFromSelector(_cmd));
     return [super resolveClassMethod:sel];
 }
 - (void)resolveInstanceMethodIntercept {
+    NSLog(@"%@ 拦截了！", NSStringFromSelector(_cmd));
+}
+
++ (void)resolveClassMethodIntercept {
     NSLog(@"%@ 拦截了！", NSStringFromSelector(_cmd));
 }
 
