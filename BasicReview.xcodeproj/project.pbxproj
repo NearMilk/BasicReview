@@ -16,6 +16,7 @@
 		4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD491FBEC81A00DEACF7 /* main.m */; };
 		4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */; };
 		4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */; };
+		477DC87C1FCBD6D300A4AD3C /* Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 477DC87B1FCBD6D300A4AD3C /* Swizzling.m */; };
 		479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */; };
 		479253571FC3CC4D0034AFDB /* LifeCycleNibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */; };
 		4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253591FC3D6A20034AFDB /* LifeCycleVC.m */; };
@@ -47,6 +48,8 @@
 		4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSuperClass.m; sourceTree = "<group>"; };
 		4774DD5A1FBEDD7F00DEACF7 /* MessageSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSubClass.h; sourceTree = "<group>"; };
 		4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSubClass.m; sourceTree = "<group>"; };
+		477DC87A1FCBD6D300A4AD3C /* Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzling.h; sourceTree = "<group>"; };
+		477DC87B1FCBD6D300A4AD3C /* Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swizzling.m; sourceTree = "<group>"; };
 		479253531FC3CC4D0034AFDB /* LifeCycleNibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleNibVC.h; sourceTree = "<group>"; };
 		479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleNibVC.m; sourceTree = "<group>"; };
 		479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleNibVC.xib; sourceTree = "<group>"; };
@@ -151,9 +154,34 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		477DC8791FCBD5C700A4AD3C /* swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				477DC87A1FCBD6D300A4AD3C /* Swizzling.h */,
+				477DC87B1FCBD6D300A4AD3C /* Swizzling.m */,
+			);
+			path = swizzling;
+			sourceTree = "<group>";
+		};
+		477DC87D1FCBECE000A4AD3C /* associatedObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = associatedObject;
+			sourceTree = "<group>";
+		};
+		477DC87E1FCBF82400A4AD3C /* SyncAndAsync */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SyncAndAsync;
+			sourceTree = "<group>";
+		};
 		478C7A0F1FC5718800219544 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				477DC87D1FCBECE000A4AD3C /* associatedObject */,
+				477DC8791FCBD5C700A4AD3C /* swizzling */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -161,6 +189,7 @@
 		479253511FC3BBF30034AFDB /* Thread */ = {
 			isa = PBXGroup;
 			children = (
+				477DC87E1FCBF82400A4AD3C /* SyncAndAsync */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -302,6 +331,7 @@
 				471D557D1FC6BFF500E22B5C /* MessageOtherClass.m in Sources */,
 				4792535F1FC3D85D0034AFDB /* LifeCycleNoNibVC.m in Sources */,
 				4798E5CA1FC2A6CE00499AC3 /* RunLoopTestVC.m in Sources */,
+				477DC87C1FCBD6D300A4AD3C /* Swizzling.m in Sources */,
 				4798E5D41FC2ABE500499AC3 /* RunLoopVC.m in Sources */,
 				4798E5CE1FC2AA6800499AC3 /* DeepShallowCopyVC.m in Sources */,
 				4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */,

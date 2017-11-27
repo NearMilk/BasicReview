@@ -15,6 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[UIButton appearance] setExclusiveTouch:YES];
 }
 
 - (NSArray *)array {
