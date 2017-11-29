@@ -17,6 +17,8 @@
 		4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD581FBEDD6C00DEACF7 /* MessageSuperClass.m */; };
 		4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */; };
 		477DC87C1FCBD6D300A4AD3C /* Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 477DC87B1FCBD6D300A4AD3C /* Swizzling.m */; };
+		478D26E01FCE4B8600D0F997 /* NSThreadTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D26DF1FCE4B8600D0F997 /* NSThreadTestClass.m */; };
+		478D26E31FCE783900D0F997 /* NSOperationCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D26E21FCE783900D0F997 /* NSOperationCustom.m */; };
 		479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */; };
 		479253571FC3CC4D0034AFDB /* LifeCycleNibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */; };
 		4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253591FC3D6A20034AFDB /* LifeCycleVC.m */; };
@@ -24,6 +26,12 @@
 		4792535F1FC3D85D0034AFDB /* LifeCycleNoNibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792535E1FC3D85D0034AFDB /* LifeCycleNoNibVC.m */; };
 		479253621FC3F2110034AFDB /* LifeCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253611FC3F2110034AFDB /* LifeCycleView.m */; };
 		479253651FC3F89D0034AFDB /* LifeCycleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 479253641FC3F89D0034AFDB /* LifeCycleObject.m */; };
+		4795A42A1FCD0204009440AB /* ThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795A4291FCD0204009440AB /* ThreadVC.m */; };
+		4795A42C1FCD05C4009440AB /* ThreadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4795A42B1FCD05C4009440AB /* ThreadVC.xib */; };
+		4795A42F1FCD0864009440AB /* GCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795A42E1FCD0864009440AB /* GCDVC.m */; };
+		4795A4321FCD0878009440AB /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795A4311FCD0878009440AB /* NSOperationVC.m */; };
+		4795A4351FCD08BE009440AB /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795A4341FCD08BE009440AB /* NSThreadVC.m */; };
+		4795A4381FCD4AB4009440AB /* NSThreadCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795A4371FCD4AB4009440AB /* NSThreadCustom.m */; };
 		4798E5CA1FC2A6CE00499AC3 /* RunLoopTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5C81FC2A6CE00499AC3 /* RunLoopTestVC.m */; };
 		4798E5CB1FC2A6CE00499AC3 /* RunLoopTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4798E5C91FC2A6CE00499AC3 /* RunLoopTestVC.xib */; };
 		4798E5CE1FC2AA6800499AC3 /* DeepShallowCopyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5CD1FC2AA6800499AC3 /* DeepShallowCopyVC.m */; };
@@ -50,6 +58,10 @@
 		4774DD5B1FBEDD7F00DEACF7 /* MessageSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSubClass.m; sourceTree = "<group>"; };
 		477DC87A1FCBD6D300A4AD3C /* Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzling.h; sourceTree = "<group>"; };
 		477DC87B1FCBD6D300A4AD3C /* Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swizzling.m; sourceTree = "<group>"; };
+		478D26DE1FCE4B8600D0F997 /* NSThreadTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadTestClass.h; sourceTree = "<group>"; };
+		478D26DF1FCE4B8600D0F997 /* NSThreadTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadTestClass.m; sourceTree = "<group>"; };
+		478D26E11FCE783900D0F997 /* NSOperationCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationCustom.h; sourceTree = "<group>"; };
+		478D26E21FCE783900D0F997 /* NSOperationCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationCustom.m; sourceTree = "<group>"; };
 		479253531FC3CC4D0034AFDB /* LifeCycleNibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleNibVC.h; sourceTree = "<group>"; };
 		479253541FC3CC4D0034AFDB /* LifeCycleNibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleNibVC.m; sourceTree = "<group>"; };
 		479253551FC3CC4D0034AFDB /* LifeCycleNibVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleNibVC.xib; sourceTree = "<group>"; };
@@ -62,6 +74,17 @@
 		479253611FC3F2110034AFDB /* LifeCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleView.m; sourceTree = "<group>"; };
 		479253631FC3F89D0034AFDB /* LifeCycleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleObject.h; sourceTree = "<group>"; };
 		479253641FC3F89D0034AFDB /* LifeCycleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleObject.m; sourceTree = "<group>"; };
+		4795A4281FCD0204009440AB /* ThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadVC.h; sourceTree = "<group>"; };
+		4795A4291FCD0204009440AB /* ThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadVC.m; sourceTree = "<group>"; };
+		4795A42B1FCD05C4009440AB /* ThreadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreadVC.xib; sourceTree = "<group>"; };
+		4795A42D1FCD0864009440AB /* GCDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
+		4795A42E1FCD0864009440AB /* GCDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDVC.m; sourceTree = "<group>"; };
+		4795A4301FCD0878009440AB /* NSOperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		4795A4311FCD0878009440AB /* NSOperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		4795A4331FCD08BE009440AB /* NSThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		4795A4341FCD08BE009440AB /* NSThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
+		4795A4361FCD4AB4009440AB /* NSThreadCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadCustom.h; sourceTree = "<group>"; };
+		4795A4371FCD4AB4009440AB /* NSThreadCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadCustom.m; sourceTree = "<group>"; };
 		4798E5C71FC2A6CE00499AC3 /* RunLoopTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTestVC.h; sourceTree = "<group>"; };
 		4798E5C81FC2A6CE00499AC3 /* RunLoopTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTestVC.m; sourceTree = "<group>"; };
 		4798E5C91FC2A6CE00499AC3 /* RunLoopTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoopTestVC.xib; sourceTree = "<group>"; };
@@ -120,6 +143,7 @@
 		4774DD511FBEC83F00DEACF7 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				4795A4221FCCFE55009440AB /* Common */,
 				478C7A0F1FC5718800219544 /* Runtime */,
 				479253521FC3BDBE0034AFDB /* LifeCycle */,
 				479253511FC3BBF30034AFDB /* Thread */,
@@ -170,11 +194,11 @@
 			path = associatedObject;
 			sourceTree = "<group>";
 		};
-		477DC87E1FCBF82400A4AD3C /* SyncAndAsync */ = {
+		477DC87E1FCBF82400A4AD3C /* syncAndAsync */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = SyncAndAsync;
+			path = syncAndAsync;
 			sourceTree = "<group>";
 		};
 		478C7A0F1FC5718800219544 /* Runtime */ = {
@@ -189,7 +213,13 @@
 		479253511FC3BBF30034AFDB /* Thread */ = {
 			isa = PBXGroup;
 			children = (
-				477DC87E1FCBF82400A4AD3C /* SyncAndAsync */,
+				4795A4271FCD01CF009440AB /* GCD */,
+				4795A4261FCD0194009440AB /* NSOperation */,
+				4795A4251FCD0186009440AB /* NSThread */,
+				477DC87E1FCBF82400A4AD3C /* syncAndAsync */,
+				4795A4281FCD0204009440AB /* ThreadVC.h */,
+				4795A4291FCD0204009440AB /* ThreadVC.m */,
+				4795A42B1FCD05C4009440AB /* ThreadVC.xib */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -235,6 +265,62 @@
 				479253641FC3F89D0034AFDB /* LifeCycleObject.m */,
 			);
 			path = object;
+			sourceTree = "<group>";
+		};
+		4795A4221FCCFE55009440AB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4795A4241FCD0013009440AB /* keyValue */,
+				4795A4231FCCFEA5009440AB /* animation */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4795A4231FCCFEA5009440AB /* animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		4795A4241FCD0013009440AB /* keyValue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = keyValue;
+			sourceTree = "<group>";
+		};
+		4795A4251FCD0186009440AB /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				4795A4331FCD08BE009440AB /* NSThreadVC.h */,
+				4795A4341FCD08BE009440AB /* NSThreadVC.m */,
+				4795A4361FCD4AB4009440AB /* NSThreadCustom.h */,
+				4795A4371FCD4AB4009440AB /* NSThreadCustom.m */,
+				478D26DE1FCE4B8600D0F997 /* NSThreadTestClass.h */,
+				478D26DF1FCE4B8600D0F997 /* NSThreadTestClass.m */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		4795A4261FCD0194009440AB /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				4795A4301FCD0878009440AB /* NSOperationVC.h */,
+				4795A4311FCD0878009440AB /* NSOperationVC.m */,
+				478D26E11FCE783900D0F997 /* NSOperationCustom.h */,
+				478D26E21FCE783900D0F997 /* NSOperationCustom.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		4795A4271FCD01CF009440AB /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4795A42D1FCD0864009440AB /* GCDVC.h */,
+				4795A42E1FCD0864009440AB /* GCDVC.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		4798E5C61FC268D300499AC3 /* RunLoop */ = {
@@ -307,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4795A42C1FCD05C4009440AB /* ThreadVC.xib in Resources */,
 				4774DD471FBEC81A00DEACF7 /* LaunchScreen.storyboard in Resources */,
 				4792535C1FC3D6A20034AFDB /* LifeCycleVC.xib in Resources */,
 				479253571FC3CC4D0034AFDB /* LifeCycleNibVC.xib in Resources */,
@@ -323,9 +410,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4795A4321FCD0878009440AB /* NSOperationVC.m in Sources */,
+				4795A4351FCD08BE009440AB /* NSThreadVC.m in Sources */,
 				479253621FC3F2110034AFDB /* LifeCycleView.m in Sources */,
+				478D26E01FCE4B8600D0F997 /* NSThreadTestClass.m in Sources */,
 				4798E5D11FC2AB9E00499AC3 /* MessageForwardVC.m in Sources */,
 				479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */,
+				4795A42A1FCD0204009440AB /* ThreadVC.m in Sources */,
+				478D26E31FCE783900D0F997 /* NSOperationCustom.m in Sources */,
 				4774DD3F1FBEC81A00DEACF7 /* MainViewController.m in Sources */,
 				4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */,
 				471D557D1FC6BFF500E22B5C /* MessageOtherClass.m in Sources */,
@@ -337,8 +429,10 @@
 				4774DD4A1FBEC81A00DEACF7 /* main.m in Sources */,
 				4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */,
 				4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */,
+				4795A42F1FCD0864009440AB /* GCDVC.m in Sources */,
 				4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */,
 				479253651FC3F89D0034AFDB /* LifeCycleObject.m in Sources */,
+				4795A4381FCD4AB4009440AB /* NSThreadCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
