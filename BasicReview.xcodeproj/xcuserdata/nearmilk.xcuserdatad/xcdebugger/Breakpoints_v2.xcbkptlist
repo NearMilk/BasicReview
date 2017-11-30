@@ -106,7 +106,7 @@
                   moduleName = "BasicReview"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nearmilk/Desktop/doNot/BasicReview/BasicReview/Basic/RunLoop/RunLoopVC.m"
-                  timestampString = "533636768.118759"
+                  timestampString = "533725441.270094"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -121,7 +121,7 @@
                   moduleName = "BasicReview"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nearmilk/Desktop/doNot/BasicReview/BasicReview/Basic/RunLoop/RunLoopVC.m"
-                  timestampString = "533636768.12177"
+                  timestampString = "533725441.271489"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -177,38 +177,6 @@
             endingLineNumber = "47"
             landmarkName = "unknown"
             landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BasicReview/Basic/LifeCycle/LifeCycleVC.m"
-            timestampString = "532944589.044382"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "-testWeakStrongObject"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BasicReview/Basic/LifeCycle/LifeCycleVC.m"
-            timestampString = "532944589.044738"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "-testWeakStrongObject"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

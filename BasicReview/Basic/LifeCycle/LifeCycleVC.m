@@ -15,6 +15,9 @@
 
 @implementation LifeCycleVC
 
+- (void)ppp {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
