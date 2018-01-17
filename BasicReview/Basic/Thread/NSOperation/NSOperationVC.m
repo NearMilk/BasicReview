@@ -96,6 +96,7 @@
     [queue addOperation:blockOperation];
     [queue addOperation:invocationOperation];
     
+    
 //    [blockOperation start];
 }
 
