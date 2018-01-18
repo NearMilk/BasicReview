@@ -8,10 +8,12 @@
 
 #import <XCTest/XCTest.h>
 #import "PropertiesAttribute.h"
+#import "PointSubObject.h"
 
 @interface BasicReviewTests : XCTestCase
 
 @property (nonatomic, strong) PropertiesAttribute *propertiesAttribute;
+@property (nonatomic, strong) PointSubObject *pointSubObject;
 @end
 
 @implementation BasicReviewTests
@@ -19,7 +21,8 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    self.propertiesAttribute = [[PropertiesAttribute alloc] init];
+//    self.propertiesAttribute = [[PropertiesAttribute alloc] init];
+    self.pointSubObject = [[PointSubObject alloc] init];
 }
 
 - (void)tearDown {

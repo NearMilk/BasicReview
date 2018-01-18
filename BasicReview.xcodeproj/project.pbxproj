@@ -39,6 +39,9 @@
 		4798E5CE1FC2AA6800499AC3 /* DeepShallowCopyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5CD1FC2AA6800499AC3 /* DeepShallowCopyVC.m */; };
 		4798E5D11FC2AB9E00499AC3 /* MessageForwardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5D01FC2AB9E00499AC3 /* MessageForwardVC.m */; };
 		4798E5D41FC2ABE500499AC3 /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798E5D31FC2ABE500499AC3 /* RunLoopVC.m */; };
+		47AB6DC2201067A800C39F50 /* AssociatedObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB6DC1201067A800C39F50 /* AssociatedObjectClass.m */; };
+		47AB6DC620108DD000C39F50 /* PointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB6DC520108DD000C39F50 /* PointObject.m */; };
+		47AB6DC920108E4300C39F50 /* PointSubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB6DC820108E4300C39F50 /* PointSubObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,12 @@
 		4798E5D01FC2AB9E00499AC3 /* MessageForwardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardVC.m; sourceTree = "<group>"; };
 		4798E5D21FC2ABE500499AC3 /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
 		4798E5D31FC2ABE500499AC3 /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
+		47AB6DC0201067A800C39F50 /* AssociatedObjectClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedObjectClass.h; sourceTree = "<group>"; };
+		47AB6DC1201067A800C39F50 /* AssociatedObjectClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectClass.m; sourceTree = "<group>"; };
+		47AB6DC420108DD000C39F50 /* PointObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointObject.h; sourceTree = "<group>"; };
+		47AB6DC520108DD000C39F50 /* PointObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointObject.m; sourceTree = "<group>"; };
+		47AB6DC720108E4300C39F50 /* PointSubObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointSubObject.h; sourceTree = "<group>"; };
+		47AB6DC820108E4300C39F50 /* PointSubObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointSubObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +225,8 @@
 		477DC87D1FCBECE000A4AD3C /* associatedObject */ = {
 			isa = PBXGroup;
 			children = (
+				47AB6DC0201067A800C39F50 /* AssociatedObjectClass.h */,
+				47AB6DC1201067A800C39F50 /* AssociatedObjectClass.m */,
 			);
 			path = associatedObject;
 			sourceTree = "<group>";
@@ -230,6 +241,7 @@
 		478C7A0F1FC5718800219544 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				47AB6DC320108DB200C39F50 /* point */,
 				47959CCE200EF55800B7027C /* propertyAttrbutes */,
 				477DC87D1FCBECE000A4AD3C /* associatedObject */,
 				477DC8791FCBD5C700A4AD3C /* swizzling */,
@@ -380,6 +392,17 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
+		47AB6DC320108DB200C39F50 /* point */ = {
+			isa = PBXGroup;
+			children = (
+				47AB6DC420108DD000C39F50 /* PointObject.h */,
+				47AB6DC520108DD000C39F50 /* PointObject.m */,
+				47AB6DC720108E4300C39F50 /* PointSubObject.h */,
+				47AB6DC820108E4300C39F50 /* PointSubObject.m */,
+			);
+			path = point;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,6 +516,7 @@
 				4798E5D11FC2AB9E00499AC3 /* MessageForwardVC.m in Sources */,
 				479253561FC3CC4D0034AFDB /* LifeCycleNibVC.m in Sources */,
 				4795A42A1FCD0204009440AB /* ThreadVC.m in Sources */,
+				47AB6DC620108DD000C39F50 /* PointObject.m in Sources */,
 				478D26E31FCE783900D0F997 /* NSOperationCustom.m in Sources */,
 				4774DD3F1FBEC81A00DEACF7 /* MainViewController.m in Sources */,
 				4792535B1FC3D6A20034AFDB /* LifeCycleVC.m in Sources */,
@@ -507,7 +531,9 @@
 				4774DD3C1FBEC81A00DEACF7 /* AppDelegate.m in Sources */,
 				4774DD5C1FBEDD7F00DEACF7 /* MessageSubClass.m in Sources */,
 				4795A42F1FCD0864009440AB /* GCDVC.m in Sources */,
+				47AB6DC2201067A800C39F50 /* AssociatedObjectClass.m in Sources */,
 				4774DD591FBEDD6C00DEACF7 /* MessageSuperClass.m in Sources */,
+				47AB6DC920108E4300C39F50 /* PointSubObject.m in Sources */,
 				479253651FC3F89D0034AFDB /* LifeCycleObject.m in Sources */,
 				4795A4381FCD4AB4009440AB /* NSThreadCustom.m in Sources */,
 			);
